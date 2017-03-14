@@ -54,10 +54,10 @@
 		F0F740B51E77B91B000F137F /* PickerLooper */ = {
 			isa = PBXGroup;
 			children = (
-				F0F740B61E77B91B000F137F /* AppDelegate.swift */,
-				F0F740B81E77B91B000F137F /* ViewController.swift */,
-				F0F740BA1E77B91B000F137F /* Main.storyboard */,
 				F0F740BD1E77B91B000F137F /* Assets.xcassets */,
+				F0F740BA1E77B91B000F137F /* Main.storyboard */,
+				F0F740B81E77B91B000F137F /* ViewController.swift */,
+				F0F740B61E77B91B000F137F /* AppDelegate.swift */,
 				F0F740BF1E77B91B000F137F /* LaunchScreen.storyboard */,
 				F0F740C21E77B91B000F137F /* Info.plist */,
 			);
