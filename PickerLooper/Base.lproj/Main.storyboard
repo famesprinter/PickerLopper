@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Yc-tW-eYw">
-                                <rect key="frame" x="27.5" y="225" width="320" height="216"/>
+                                <rect key="frame" x="27" y="225" width="320" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="gWc-9F-m0w"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="T3W-o1-9gm"/>
@@ -35,6 +35,9 @@
                             <constraint firstItem="9Yc-tW-eYw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pfp-kv-JGs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="9Yc-tW-eYw" id="Ypj-X1-MZK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
